@@ -1,12 +1,89 @@
+<!-- Documentação padrão html brasil -->
 <!DOCTYPE html>
     <html lang="pt-br">
+
+    <!-- Depêndencias do site -->
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        
+        <title>Alquemist: Meu Portifólio</title>
+
+        <!-- Folha de estilo simples -->
+        <link rel="stylesheet" href="css/estilo.css">
+
+        <!-- Importando icones -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </head>
     <body>
-        <h1>Ismael Vieira Guedes</h1>
+        <main id="container">
+            <aside id="bio-container">
+                <h2>Ismael Guedes</h2>
+                <img id="bio-img" src="img/ismael.jpg" alt="Ismael Guedes">
+                <p>Olá, meu nome é Ismael Guedes, conhecido pelo codenome <span class="highlight">Alquemist</span> e também sou um <span class="highlight">Entusiata FullStack e Análista de Sistemas</span></p>
+                <p id="welcome-text">Seja bem-vindo!</p>
+                <ul id="social-container">
+                    <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                </ul>
+                <div id="email-container">
+                    <ion-icon name="mail-outline" role="img" class="md hydrated" aria-label="mail outline"></ion-icon><a href="mailto:alquemist.dev@gmail.com">alquemist.dev@gmail.com</a>
+                </div>
+            </aside>
+            <section id="about-container">
+                <h1 id="name">Ismael Guedes</h1>
+                <p id="title"><span class="highlight">Entusiasta FullStack</span></p>
+                <p class="description">Sou um desenvolvedor especializado em e-commerces, gosto de participar do projeto desde a <span class="highlight">definição das regras de negócio e levantamento de requisito</span> até o <span class="highlight">deploy da aplicação</span>.</p>
+                <p class="description">Atuo tanto no <span class="highlight">front</span> como no <span class="highlight">back-end</span>, e amo tecnologia, estudo todos os dias para me tornar cada vez melhor e escrever código de qualidade.</p>
+                <a href="#" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver projetos</span></a>
+                <h2 id="skills-section-title">Meu Conhecimentos</h2>
+                <p class="description">Aqui estão listados os meus conhecimentos do médio ao avançado</p>
+                <div id="skills-container">
+                    <div class="skills-box">
+                        <p class="skills-title">Front-end</p>
+                        <i class="devicon-html5-plain colored"></i>
+                        <i class="devicon-css3-plain colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-markdown-plain"></i>
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title">Back-end</p>
+                        <i class="devicon-php-plain colored"></i>
+                        <i class="devicon-python-plain colored"></i>
+                        <i class="devicon-mysql-plain-wordmark colored"></i>
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title">Outras linguagens de programação</p>
+                        <i class="devicon-cplusplus-plain-wordmark colored"></i>
+                        <i class="devicon-csharp-plain"></i>
+                        <i class="devicon-java-plain-wordmark colored"></i>
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title">Bibliotecas e Frameworks</p>
+                        <i class="devicon-threejs-original-wordmark"></i>
+                        <i class="devicon-django-plain"></i>
+                        <i class="devicon-opengl-plain"></i>
+                        <i class="devicon-dotnetcore-plain colored"></i>
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title">Ferramentas de Desenvolvimento</p>
+                        <i class="devicon-vscode-plain colored"></i>
+                        <i class="devicon-visualstudio-plain colored"></i>
+                        <i class="devicon-git-plain colored"></i>
+                        <i class="devicon-github-plain"></i>
+                        <i class="devicon-arduino-plain-wordmark colored"></i>
+                        <i class="devicon-blender-original colored"></i>
+                    </div>
+                    <div class="skills-box">
+                        <p class="skills-title">Sistemas Operacionais</p>
+                        <i class="devicon-linux-plain"></i>
+                        <i class="devicon-windows8-original colored"></i>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
