@@ -31,10 +31,6 @@
     color: var(--main-color);
 }
 
-body {
-
-}
-
 /* Containers */
 #container {
     display: flex;
